@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+}
+
+.playGround {
+  margin: 0 auto;
+  height: 407px;
+  width: 615px;
+  border: 1px solid black;
+}
+
+.tower {
+  width: 200px;
+  height: 400px;
+  border: 1px solid blue;
+  position:relative;
+  float:left;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.pile {
+  height: 30px;
+  margin: auto;
+  margin-top: 4px;
+  z-index: 1000;
+  position: relative;
+
+}
+
+.pileHolder {
+  position: absolute;
+  bottom: 0px;
+  width: 200px;
+  text-align: center;
+}
+
+#pile1 {
+  width: 60px;
+  background-color: red;
+}
+
+#pile2 {
+  width: 100px;
+  background-color: darkblue;
+}
+
+#pile3 {
+  width: 140px;
+  background-color: yellow;
+}
+
+.success {
+  color:green;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+.selected {
+  background-color: lightgrey !important;
+}
+
+.towerLine {
+  height: 120px;
+  width: 10px;
+  background-color: brown;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 94px;
+  z-index: 0;
+}
